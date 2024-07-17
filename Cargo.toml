@@ -1,5 +1,5 @@
 [package]
-name = "sfr_verifier"
+name = "k8s-rust"
 version = "0.1.0"
 edition = "2021"
 
