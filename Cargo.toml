@@ -1,0 +1,11 @@
+[package]
+name = "sfr_verifier"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.86"
+k8s-openapi = { version = "0.22.0", features = ["v1_28"] }
+kube = { version = "0.92.1", features = ["runtime", "derive"] }
+serde_json = "1.0.120"
+tokio = { version = "1.38.1", features = ["full"] }
